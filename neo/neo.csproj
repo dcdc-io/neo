@@ -21,6 +21,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../../neo-vm/src/neo-vm/neo-vm.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Akka" Version="1.3.11" />
     <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.2.0" />
